@@ -60,7 +60,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 ```
-###Running the Notebook
+### Running the Notebook
 
 **Open the Jupyter Notebook**
 
@@ -75,7 +75,7 @@ ii. Retrieving relevant text chunks based on a user query.
 iii. Generating responses using a language model.
 iv. Evaluating the system's performance.
 
-###Workflow
+### Workflow
 
 The overall workflow of the RAG Q-A system is illustrated in Workflow.png and includes the following steps:
 
@@ -89,11 +89,11 @@ A user query is processed and compared with the pre-computed embeddings to retri
 **3. Response Generation:**
 The retrieved context is fed into a language model to generate a contextually accurate response.
 
-###Results
+### Results
 
 The system is designed to efficiently process large documents and generate accurate, context-aware responses. Detailed outputs, including intermediate results and evaluation metrics, are available within the notebook. You can further enhance the evaluation section by adding performance metrics or visualizations as needed.
 
-###Contributing
+### Contributing
 
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, please follow these steps:
 
@@ -113,11 +113,11 @@ git push origin feature-branch
 ```
 **5. Open a Pull Request describing your changes.**
 
-###License
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-###Contact
+### Contact
 
 For any questions or feedback, please contact manojdatascientist7@gmail.com.
 
